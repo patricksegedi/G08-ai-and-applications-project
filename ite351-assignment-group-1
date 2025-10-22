@@ -1,0 +1,18 @@
+Kun Lee, Dept. of Information Systems Hanyang University, ceh1502@hanyang.ac.kr
+Jinseo Hong, Dept. of Information Systems Hanyang University, h0dduck@hanyang.ac.kr
+Patrick Segedi, Dept. of Computer Science Chalmers Unviersity of segedi@chalmers.se
+
+Title: 'Context-Aware Voice Assistant for Multi-User Homes'
+
+
+Proposal: Current smart home voice assistants like Alexa and Google Home lack effective personalization for multiple household members and raise privacy concerns 
+through cloud-based processing. This project proposes developing a context-aware voice assistant that recognizes individual users, understands situational context, 
+and provides personalized responses while ensuring privacy through local processing.
+The system integrates three key AI technologies: ECAPA-TDNN for speaker recognition to identify who is speaking, Whisper for speech-to-text conversion,
+and AIML for natural language understanding to parse user commands. Each family member enrolls by recording 10 predefined sentences, creating unique voice profiles stored locally on edge devices like Raspberry Pi.
+The assistant adapts responses based on speaker identity, room location, and time of day.
+Role-based access control ensures children cannot execute restricted commands (e.g., turning on TV after bedtime), while adults maintain full access. User preferences for lighting, temperature, and music are automatically applied based on speaker recognition.
+By processing all data locally without cloud connectivity, the system addresses growing privacy concerns while delivering personalized smart home experiences.
+This approach demonstrates practical applications of speaker verification, speech recognition, and rule-based AI in creating intelligent,
+privacy-preserving home automation systems.
+
