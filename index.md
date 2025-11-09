@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "AI & Applications Project"
+title: "Home"
 ---
 
 [View Weekly Blog](blog.md)
