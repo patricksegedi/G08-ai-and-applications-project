@@ -1,9 +1,7 @@
 ---
-layout: home
+layout: page
 title: "Weekly Blog"
 ---
-
-# Weekly Blog
 
 Welcome to the project development blog!  
 Click a week below to read that update.
