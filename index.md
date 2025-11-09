@@ -1,5 +1,7 @@
-# Project Blog
+---
+layout: home
+title: "AI & Applications Project"
+---
 
-Welcome to our project blog for “Context-aware Personalized Voice Assistant”.
-
-[Click here to read our weekly log](blog.md)
+# Welcome
+This is the homepage for my AI & Applications project blog.
