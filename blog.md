@@ -3,6 +3,9 @@ layout: post
 title: "Project Weekly Blog"
 ---
 
+[⬅ Back to Home](index.md)
+
+
 ## Week 1 - Project start
 
 During the first week, we set up GitHub, platforms, planned team meetings, and assigned responsibilities.
