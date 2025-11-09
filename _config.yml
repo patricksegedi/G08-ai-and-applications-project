@@ -1,1 +1,8 @@
 theme: minima
+
+title: "AI & Applications Project"
+description: "Project weekly blog"
+
+header_pages:
+  - index.md
+  - blog.md
