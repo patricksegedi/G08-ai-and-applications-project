@@ -93,16 +93,28 @@ o	resolve multi-user command conflicts
 Since this stream is processed on-device and never uploaded, it is considered an operational dataset rather than a stored one.
 
 III. Methodology 
-- Explaining your choice of algorithms (methods, any models from AIML libraries)
 
-Faster-Whisper: OpenAI’s speech-to-text model. It is an optimized implementation of the Whisper model that is faster and uses less memory. It is used in the software to convert user speech into text, which can then be processed, analyzed, or used as input for further actions.
+Faster-Whisper
+OpenAI’s speech-to-text model in an optimized CTranslate2 implementation. Used to convert user speech into text for wake-word detection and command processing.
 
-SpeechBrain: An open-source, all-in-one toolkit for speech processing built in Python. It provides ready-to-use modules for tasks such as speech recognition (STT) and speaker identification. We use it in our software to compare prerecorded voices to speech input for user identification.
+SpeechBrain (ECAPA-TDNN)
+Used for speaker verification. The ECAPA-TDNN model generates speaker embeddings to compare prerecorded samples with user speech.
 
-LoveLace: 
+Cosine Similarity Scoring
+Similarity between voice embeddings is computed using cosine similarity to identify the best-matching speaker.
 
+Wake-Word Detection (Keyword-based)
+A lightweight text-based wake-word detector checks whether the transcribed text contains the activation word (“Hello”).
 
-- Explaining features or code (if any)
+XTTS-v2 (Coqui TTS)
+A neural TTS model used to generate spoken responses with selected speaker voices.
+
+Audio Capture (SoundDevice + WAVIO)
+Used to record raw microphone audio (16 kHz mono WAV format) as input for STT and verification.
+
+Lovelace UI
+Home Assistant’s dashboard system, used to visualize interactions with IoT devices.
+
 
 IV. Evaluation & Analysis
 - Graphs, tables, any statistics (if any)
