@@ -94,6 +94,14 @@ Since this stream is processed on-device and never uploaded, it is considered an
 
 III. Methodology 
 - Explaining your choice of algorithms (methods, any models from AIML libraries)
+
+Faster-Whisper: OpenAI’s speech-to-text model. It is an optimized implementation of the Whisper model that is faster and uses less memory. It is used in the software to convert user speech into text, which can then be processed, analyzed, or used as input for further actions.
+
+SpeechBrain: An open-source, all-in-one toolkit for speech processing built in Python. It provides ready-to-use modules for tasks such as speech recognition (STT) and speaker identification. We use it in our software to compare prerecorded voices to speech input for user identification.
+
+LoveLace: 
+
+
 - Explaining features or code (if any)
 
 IV. Evaluation & Analysis
