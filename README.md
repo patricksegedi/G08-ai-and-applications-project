@@ -94,25 +94,25 @@ Since this stream is processed on-device and never uploaded, it is considered an
 
 III. Methodology 
 
-Faster-Whisper
+Faster-Whisper:
 OpenAI’s speech-to-text model in an optimized CTranslate2 implementation. Used to convert user speech into text for wake-word detection and command processing.
 
-SpeechBrain (ECAPA-TDNN)
+SpeechBrain (ECAPA-TDNN):
 Used for speaker verification. The ECAPA-TDNN model generates speaker embeddings to compare prerecorded samples with user speech.
 
-Cosine Similarity Scoring
+Cosine Similarity Scoring:
 Similarity between voice embeddings is computed using cosine similarity to identify the best-matching speaker.
 
-Wake-Word Detection (Keyword-based)
+Wake-Word Detection (Keyword-based):
 A lightweight text-based wake-word detector checks whether the transcribed text contains the activation word (“Hello”).
 
-XTTS-v2 (Coqui TTS)
+XTTS-v2 (Coqui TTS):
 A neural TTS model used to generate spoken responses with selected speaker voices.
 
-Audio Capture (SoundDevice + WAVIO)
+Audio Capture (SoundDevice + WAVIO):
 Used to record raw microphone audio (16 kHz mono WAV format) as input for STT and verification.
 
-Lovelace UI
+Lovelace UI:
 Home Assistant’s dashboard system, used to visualize interactions with IoT devices.
 
 
