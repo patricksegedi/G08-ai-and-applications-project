@@ -51,4 +51,8 @@ V. Related Work (e.g., existing studies)
 - Tools, libraries, blogs, or any documentation that you have used to do this project.
 
 VI. Conclusion: Discussion
-Feel free to use any format you like. By due date A, I expect to see some of the sections filled
+Coordinating schedules was still difficult due to different class times and personal commitments. 
+We initially believed that adopting Agile with frequent meetings would 
+improve efficiency, but we learned that meeting more often does not 
+necessarily lead to better productivity—what mattered more was the 
+quality of communication and clear task ownership between meetings.
