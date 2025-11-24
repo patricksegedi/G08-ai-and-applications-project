@@ -124,7 +124,87 @@ none
 
 VI. Conclusion: Discussion
 Coordinating schedules was still difficult due to different class times and personal commitments. 
+
+
 We initially believed that adopting Agile with frequent meetings would 
 improve efficiency, but we learned that meeting more often does not 
 necessarily lead to better productivity—what mattered more was the 
 quality of communication and clear task ownership between meetings.
+
+## Weekly progress 
+### Week 1 - Project Start [2025-10-12]
+
+During the first week, we set up GitHub, platforms, planned team meetings, and assigned responsibilities.
+
+- Created a GitHub repo.
+- Set up VS Code.
+- Planned group meetings and roles.
+
+Next steps:
+- Research project ideas.
+
+Summary: We established the project structure and clarified team responsibilities.
+
+### Week 2 - Research project ideas [2025-10-19]
+
+During the second week, each group member explored and compared potential ideas for the project.
+- Each group member explored ideas for the school project.
+
+Next steps:
+- Review project ideas together.
+- Choose a project.
+
+Summary: We gathered individual ideas and prepared to decide on a final project direction.
+
+### Week 3 - Choose a project [2025-10-26]
+
+During the third week, we discussed our ideas together and selected a final project direction.
+- Discussed ideas together and picked a final direction.
+- Chosen project: Context-aware Personalized Voice Assistant.
+
+Next steps:
+- Research pre-trained voice identification models.
+- Explore implementation frameworks and tools.
+
+Summary: We agreed on the final project concept and began investigating suitable models and technologies.
+
+### Week 4 -  Model exploration [2025-11-02]
+
+During the fourth week, we reviewed available technologies and explored potential approaches for our system.
+- Reviewed findings, potential technologies, and tools together.
+- Decided to use the pre-trained ECAPA-TDNN model from the SpeechBrain toolkit.
+- Planned implementation in Python.
+
+Next steps:
+- Individually test the model
+
+Summary: We selected the model and defined the technical direction for implementation.
+
+### Week 5 -  Architecture & prototype [2025-11-09]
+
+During the fifth week, we focused on the system architecture and began building the first version of our project.
+- Researched architecture and design approaches.
+- Clarified roles and implementation responsibilities and divided tasks.
+- Built the first prototype.
+- Implemented Agile workflow using a Scrum/Kanban board.
+
+Next steps:
+- Begin database implementation.
+- Develop a prototype using the Lovelace smart-home simulation environment to demonstrate the voice assistant in the final presentation.
+- Continue testing and refining the prototype.
+
+Summary: We established the system architecture, created the first prototype, and organized the development workflow using Agile practices.
+
+### Week 6 - Implementation [2025-11-16]
+
+During the six week, we continued working with implementation of the different parts of the program.
+- Finished the LoveLace smart-home simulation.
+- 0Continuted with database implementaton.
+- Improved the prototype and finished the wake-word implementation and also demostrated it to professor.
+
+Next steps:
+- Documentation managment
+- Create a more detailed architecture visualisation.
+- Completed the database implementation.
+
+Summary: Completed the wake-word implementation and LoveLace home simulation. We also demostrated our progress to professor and received feedback on our current work.
