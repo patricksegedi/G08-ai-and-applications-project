@@ -38,7 +38,43 @@ just a theoretical concept, but a functional system that can enhance
 daily life in multi-user households.
 
 II. Datasets
-- Describing your dataset
+Our project uses three categories of datasets:
+1. pretrained public datasets used by underlying AI models,
+2. user-generated enrollment voice data, and
+3. real-time audio streams captured by in-home devices.
+These datasets support speaker verification, speech recognition, and contextual inference. 
+
+1) Pretrained Speaker Verification Dataset (VoxCeleb)
+The ECAPA-TDNN model from SpeechBrain, used for speaker identification, is pretrained on the VoxCeleb1/2 dataset, a large-scale speaker recognition corpus containing thousands of speakers recorded in unconstrained, real-world environments.
+•	Purpose in our system: extracting robust speaker embeddings for multi-user identity recognition.
+We do not retrain the model but rely on the pretrained embeddings to authenticate speakers locally on the device.
+
+2) Pretrained ASR Dataset (Whisper / Faster-Whisper)
+Our wake-word detection and speech-to-text pipeline uses Faster-Whisper, an optimized implementation of OpenAI’s Whisper model. Whisper is trained on:
+•	680,000 hours of multilingual speech
+•	Noisy, real-world audio data
+•	Diverse accents, environments, and speaking styles
+This makes it suitable for household environments where commands may vary in tone or clarity.
+
+3) User Enrollment Voice Dataset (Locally Stored)
+To enable personalization and role-based access control, each household member records a set of enrollment samples during profile setup.
+•	Format: WAV, 16 kHz, mono
+•	Typical length: 3–5 seconds per sample
+•	Number of samples: 3–5 recordings per user
+•	Storage: encrypted local SQLite database
+•	Purpose:
+o	create user-specific embeddings
+o	authenticate speakers in real-time
+o	maintain privacy by preventing cloud transmission
+All data remains fully on-device to ensure privacy.
+
+4) Real-Time Environmental Audio Stream
+For wake-word detection, command processing, and location awareness, the system processes continuous audio input from multiple room speakers/microphones.
+•	Purpose:
+o	detect speaker location
+o	identify the active user
+o	resolve multi-user command conflicts
+Since this stream is processed on-device and never uploaded, it is considered an operational dataset rather than a stored one.
 
 III. Methodology 
 - Explaining your choice of algorithms (methods, any models from AIML libraries)
