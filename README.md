@@ -85,7 +85,7 @@ IV. Evaluation & Analysis
 - Graphs, tables, any statistics (if any)
 
 V. Related Work (e.g., existing studies)
-- Tools, libraries, blogs, or any documentation that you have used to do this project.
+none
 
 VI. Conclusion: Discussion
 Coordinating schedules was still difficult due to different class times and personal commitments. 
