@@ -38,6 +38,7 @@ just a theoretical concept, but a functional system that can enhance
 daily life in multi-user households.
 
 II. Datasets
+
 Our project uses three categories of datasets:
 1. pretrained public datasets used by underlying AI models,
 2. user-generated enrollment voice data, and
