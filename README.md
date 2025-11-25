@@ -1,10 +1,4 @@
 # G08-ai-and-applications-project
-Repository for AI and Applications course project
-
-*Task 1: Update your tech blog using the contents from the previous group assignment. At the top of your 
-blog, you should have a table of contents (I will give a slightly different instruction for those groups doing 
-LG projects. I will explain more in class). The recommended format is the following:
-
 Title of your project: Speaker-Adaptive Voice Assistant for Multi-User Homes
 
 Members: 
