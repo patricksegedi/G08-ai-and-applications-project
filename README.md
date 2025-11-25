@@ -208,3 +208,23 @@ Next steps:
 - Completed the database implementation.
 
 Summary: Completed the wake-word implementation and LoveLace home simulation. We also demostrated our progress to professor and received feedback on our current work.
+
+### Week 7 - Documentation [2025-11-23]
+
+During the seven week, we mostly focused on documentation for the project, while also continued to work on the database and started working on the back-end implemetation.
+- The main focus was documentation for the project.
+- Continuted with database implementaton.
+- Back-end development.
+- Updated the document from docx-format to LateX.
+- Architecture visualization
+- Presentation discussion.
+
+Next steps:
+- Finishing the database
+- Continue working on documentation. Adding use cases, model description, etc.
+- Model improvement
+- Web application development
+- Organize the software dictionary.
+- Presentation planning.
+
+Summary: This week we focused on improving the project documentation after receiving feedback from our latest meeting with Professor. We learned how to use LateX and updated the documentation from .docs to LateX. We also made a program architecture visualization map. The database implementation is currently being worked on and back-end implementation has started.
