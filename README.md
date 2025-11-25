@@ -122,7 +122,7 @@ Home Assistant’s dashboard system, used to visualize interactions with IoT dev
 
 
 ### IV. Evaluation & Analysis
-- Graphs, tables, any statistics (if any)
+none
 
 ### V. Related Work (e.g., existing studies)
 none
