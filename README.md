@@ -1,5 +1,5 @@
 # G08-ai-and-applications-project
-Title of your project: Speaker-Adaptive Voice Assistant for Multi-User Homes
+Title: Speaker-Adaptive Voice Assistant for Multi-User Homes
 blog: https://patricksegedi.github.io/G08-ai-and-applications-project
 
 Members: 
