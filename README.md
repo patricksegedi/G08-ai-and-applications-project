@@ -250,3 +250,6 @@ During week 9 after confirming stable performance across all modules, we recorde
 - Merging into visual video
 - Testing the demo with no errors.
 
+## Task 2 - Video URL
+
+https://www.youtube.com/watch?v=uW7JgBTDY0g
