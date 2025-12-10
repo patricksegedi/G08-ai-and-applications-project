@@ -228,3 +228,25 @@ Next steps:
 - Presentation planning.
 
 Summary: This week we focused on improving the project documentation after receiving feedback from our latest meeting with Professor. We learned how to use LateX and updated the documentation from .docs to LateX. We also made a program architecture visualization map. The database implementation is currently being worked on and back-end implementation has started.
+
+### Week 8 - updating implementation [2025-11-30]
+
+During Week 8, we focused on connecting all core components through a fully structured backend.
+We built a FastAPI server, implemented API endpoints, and enabled automatic documentation using Swagger UI.
+- we constructed a MySQL database and configured the backend to interact with it—handling user information
+- device data
+- all required project entities
+- ensuring that the backend, database, and voice-analysis modules could communicate seamlessly in a unified system
+
+Next steps:
+- Finishing the implementation
+- Testing
+- Creating the demo video
+
+### Week 9 - Testing & making Demo Video [2025-12-07]
+
+During week 9 after confirming stable performance across all modules, we recorded the official demo video.
+- Filming our actual demonstration
+- Merging into visual video
+- Testing the demo with no errors.
+
